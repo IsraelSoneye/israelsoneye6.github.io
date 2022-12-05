@@ -11,88 +11,80 @@
     <body>
         <section class="title">
             <div class="wrapper1">
-                <div class="udemy">
-                    <a href=""><img src="images/logo-udemy.svg" alt="udemy logo" style="width: 100px;"/></a> 
-                    <nav>
-                        <ul>
-                            <li><small><a href="">Categories</a></small></li>
-                        </ul>
-                        <div>
-                            <input type="email" placeholder="Search for anything" />
-                        </div>
-                        <ul>
-                            <li><small><a href="">Udemy Business</a></small></li>
-                            <li><small><a href="">Teach on Udemy</a></small></li>
-                        </ul>
-                        <div>
-                            <a href=""><img src="images/cart.png" alt="cart" style="width: 20px;"/></a>
-                        </div>
-                    </nav>
-                </div>
-                <div class="button">
-                    <nav>
-                        <ul>
-                            <li><button><a href=""><b>Log in</b></a></button></li>
-                            <li><button><a href=""><b>Sign up</b></a></button></li>
-                        </ul>
-                        <a href=""><img src="images/globe.png" alt="globe" style="width: 20px;"/></a>
-                    </nav>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="text">
-                <h1>Cyber Sale on now: Courses from ₦2,500</h1>
-                <p>Take the first step toward a brighter future. Sale ends tomorrow.</p>
-            </div>
-        </section>
-        <section class="courses">
-            <div class="text">
-                <h1>A broad selection of courses</h1>
-                <p>Choose from 213,000 online video courses with new additions published every month</p>
-            </div>
-            <div class="wrapper2">
-                <h3>Python</h3>
-                <nav>
+                <nav class="nav">
                     <ul>
-                        <li><a href=""><b>Excel</b></a></li>
-                        <li><a href=""><b>Web Development</b></a></li>
-                        <li><a href=""><b>JavaScript</b></a></li>
-                        <li><a href=""><b>Data Science</b></a></li>
-                        <li><a href=""><b>AWS Certification</b></a></li>
-                        <li><a href=""><b>Drawing</b></a></li>
+                        <li><a href=""><img src="images/logo-udemy.svg" alt="udemy logo" style="width: 100px;"/></a></li>
+                        <li><small><a href="">Categories</a></small></li>
+                        <li id="search"><input type="email" placeholder="Search for anything" /></li>
+                        <li><small><a href="">Udemy Business</a></small></li>
+                        <li><small><a href="">Teach on Udemy</a></small></li>
+                        <li><a href=""><img src="images/cart.png" alt="cart" style="width: 20px;"/></a></li>
+                    </ul>
+                </nav>
+                <nav class="button">
+                    <ul>
+                        <li id="first"><button><a href=""><b>Log in</b></a></button></li>
+                        <li id="second"><button><a href=""><b>Sign up</b></a></button></li>
+                        <li id="third"><a href=""><img src="images/globe.png" alt="globe" style="width: 20px;"/></a></li>
                     </ul>
                 </nav>
             </div>
+        </section>
+        <section class="intro" style="background-image: url(images/first-background.jpg);">
+            <div class="text1">
+                <h1>Learning that gets you</h1>
+                <p>Skills for your present (and your future). Get started with us</p>
+            </div>
+        </section>
+        <section class="courses">
+            <div class="text2">
+                <h1>A broad selection of courses</h1>
+                <p>Choose from 213,000 online video courses with new additions published every month</p>
+            </div>
+            <div class="python">
+                <ul>
+                    <li><b>Python</b></li>
+                    <li><a href=""><b>Excel</b></a></li>
+                    <li><a href=""><b>Web Development</b></a></li>
+                    <li><a href=""><b>JavaScript</b></a></li>
+                    <li><a href=""><b>Data Science</b></a></li>
+                    <li><a href=""><b>AWS Certification</b></a></li>
+                    <li><a href=""><b>Drawing</b></a></li>
+                </ul>
+            </div>
             <article>
-                <h2>Expand your career opportunities with Python</h2>
-                <p>
-                    Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language.
-                    Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning.
-                    You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal 
-                    to both beginners and advanced developers alike.
-                </p>
-                <button><b>Explore Python</b></button>
-                <div class="cards">
-                    <a href=""><img src="images/python new1.JPG" alt="pythoncard1" /></a>
-                    <a href=""><img src="images/python new2.JPG" alt="pythoncard2" /></a>
-                    <a href=""><img src="images/python new3.JPG" alt="pythoncard3" /></a>
-                    <a href=""><img src="images/python new4.JPG" alt="pythoncard4" /></a>
-                    <a href=""><img src="images/python new5.JPG" alt="pythoncard5" /></a>
-                </div>
+                <div class="content">
+                    <div id="text">
+                        <h2>Expand your career opportunities with Python</h2>
+                        <p>
+                            Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language.
+                            Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning.
+                            You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal 
+                            to both beginners and advanced developers alike.
+                        </p>
+                    </div>
+                    <button><b>Explore Python</b></button>
+                    <div class="cards">
+                        <a href=""><img src="images/python new1.JPG" alt="pythoncard1" /></a>
+                        <a href=""><img src="images/python new2.JPG" alt="pythoncard2" /></a>
+                        <a href=""><img src="images/python new3.JPG" alt="pythoncard3" /></a>
+                        <a href=""><img src="images/python new4.JPG" alt="pythoncard4" /></a>
+                        <a href=""><img src="images/python new5.JPG" alt="pythoncard5" /></a>
+                    </div>
+                </div> 
             </article>
             <div class="wrapper3">
-                <div id="play">
-                    <img src="images/tool1.JPG" alt="play sign" />
-                    <p><b>Learn in-demand skills with over 213,000 video courses</b></p>
+                <div id="play" style="width: 370px;">
+                    <img src="images/tool1.JPG" alt="play sign" width="50px" height="50px"/>
+                    <p style="width: 300px;"><b>Learn in-demand skills with over 213,000 video courses</b></p>
                 </div>
-                <div id="star">
-                    <img src="images/tool2.JPG" alt="star sign" />
-                    <p><b>Choose courses taught by real-world experts</b></p>
+                <div id="play" style="width: 370px;">
+                    <img src="images/tool2.JPG" alt="star sign" width="50px" height="50px"/>
+                    <p style="width: 300px;"><b>Choose courses taught by real-world experts</b></p>
                 </div>
-                <div id="replay">
-                    <img src="images/tool3.JPG" alt="replay sign" />
-                    <p><b>Learn at your own pace, with lifetime access on mobile and desktop</b></p>
+                <div id="play" style="width: 370px;">
+                    <img src="images/tool3.JPG" alt="replay sign" width="50px" height="50px"/>
+                    <p style="width: 300px;"><b>Learn at your own pace, with lifetime access on mobile and desktop</b></p>
                 </div>
             </div>
             <div class="students">
@@ -109,35 +101,35 @@
                 <h2>Top categories</h2>
                 <div class="caption">
                     <figure id="design">
-                        <img src="images/design.jpg" alt="design" />
+                        <img src="images/design.jpg" alt="design" width="300px"/>
                         <figcaption><b>Design</b></figcaption>
                     </figure>
                     <figure id="development">
-                        <img src="images/development.jpg" alt="development" />
+                        <img src="images/development.jpg" alt="development" width="300px"/>
                         <figcaption><b>Development</b></figcaption>
                     </figure>
                     <figure id="marketing">
-                        <img src="images/marketting.jpg" alt="marketing" />
+                        <img src="images/marketting.jpg" alt="marketing" width="300px"/>
                         <figcaption><b>Marketing</b></figcaption>
                     </figure>
                     <figure id="IT">
-                        <img src="images/IT.jpg" alt="IT" />
+                        <img src="images/IT.jpg" alt="IT" width="300px"/>
                         <figcaption><b>IT and Software</b></figcaption>
                     </figure>
                     <figure id="personal">
-                        <img src="images/personal-dev.jpg" alt="personal" />
+                        <img src="images/personal-dev.jpg" alt="personal" width="300px"/>
                         <figcaption><b>Personal Development</b></figcaption>
                     </figure>
                     <figure id="business">
-                        <img src="images/business.jpg" alt="business" />
+                        <img src="images/business.jpg" alt="business" width="300px"/>
                         <figcaption><b>Business</b></figcaption>
                     </figure>
                     <figure id="photo">
-                        <img src="images/photography.jpg" alt="photo" />
+                        <img src="images/photography.jpg" alt="photo" width="300px"/>
                         <figcaption><b>Photography</b></figcaption>
                     </figure>
                     <figure id="music">
-                        <img src="images/music.jpg" alt="music" />
+                        <img src="images/music.jpg" alt="music" width="300px"/>
                         <figcaption><b>Music</b></figcaption>
                     </figure>
                 </div>
@@ -220,22 +212,23 @@
         <section class="instructor">
             <div class="wrapper5">
                 <img src="images/instructor-1x-v3.jpg" alt="instructor" />
-                <div class="instr.text">
+                <div class="instr-text" style= "width: 400px;">
                     <h1>Become an instructor</h1>
                     <p>
                         Instructors from around the world teach millions of students on Udemy.
                         We provide the tools and skills to teach what you love. <br/>
+                        <br>
                         <button><a href=""><b>Start teaching today</b></a></button>
                     </p>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="trust">
             <div id="trusted">
                 <h1>Trusted by over 13,400 great teams</h1>
                 <p>Leading companies use the same courses to help employees keep their skills fresh.</p>
             </div>
-            <nav>
+            <nav class="logo">
                 <img src="images/nasdaq-logo-black-and-white.png" alt="nasdaq" style="width: 100px;"/>
                 <img src="images/Volkswagen-logo-black.jpg" alt="vw" style="width: 40px;"/>
                 <img src="images/box-logo-black-and-white.png" alt="box" style="width: 50px;"/>
@@ -247,18 +240,19 @@
         <section class="transform">
             <div class="wrapper6">
                 <div class="side-text">
-                    <img src="images/business logo.svg" alt="business-logo" style="width: 150px;"/>
-                <p>
+                    <img src="images/business logo.svg" alt="business-logo" style="width: 200px;"/>
+                <p style= "width: 400px;">
                     Get unlimited access to 19,000+ of Udemy’s top courses for your team.
-                    Learn and improve skills across business, tech, design, and more.
+                    Learn and improve skills across business, tech, design, and more. <br>
+                    <br>
+                    <button><a href=""><b>Get Udemy Business</b></a></button>
                 </p>
-                <button><a href=""><b>Get Udemy Business</b></a></button>
                 </div>
                 <img src="images/ub-1x-v3.jpg" alt="ub"/>
             </div>
             <div class="wrapper7">
                 <img src="images/upskill-pics.jpg" alt="upskill" style="width: 350px;"/>
-                <div class="side-text">
+                <div class="side-text" style= "width: 400px;">
                     <h1>Transform your life through education</h1>
                 <p>
                     Learners around the world are launching new careers, advancing in their fields, and enriching their lives.
@@ -269,7 +263,7 @@
         </section>
         <footer>
             <div class="wrapper8">
-                <div id="footer">
+                <div id="footer" style= "width: 800px;">
                     <ul>
                         <li><a href="">Udemy business</a></li>
                         <li><a href="">Careers</a></li>
