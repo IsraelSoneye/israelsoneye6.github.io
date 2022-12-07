@@ -55,7 +55,14 @@ li#third a img {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: rgba(211, 211, 211, 0.411);
+    background-color: rgba(230, 230, 250, 0.63);
+    position: relative;
+}
+#search img {
+    position: absolute;
+    width: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
 }
 .text1 {
     width: 450px;
